@@ -1,0 +1,63 @@
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Environment / secrets ---
+.env
+.env.local
+*.key
+credentials.json
+
+# --- Data files (often large / not meant for git) ---
+*.csv
+*.tsv
+*.en
+*.hi
+IITB.*
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# --- Model checkpoints & weights ---
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+checkpoints/
+saved_models/
+runs/
+wandb/
+logs/
+
+# --- Google Colab ---
+.config/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter output (optional: keep notebooks lightweight) ---
+# Uncomment below if you want to strip large output cells from tracked notebooks
+# *.ipynb filter=strip-notebook-output
